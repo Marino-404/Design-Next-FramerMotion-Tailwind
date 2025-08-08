@@ -1,1 +1,1 @@
-![Parallax w/FramerMotion](/img/README.PNG)
+![Parallax w/FramerMotion](/public/img/README.PNG)
