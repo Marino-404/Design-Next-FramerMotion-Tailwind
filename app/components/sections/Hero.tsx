@@ -26,22 +26,17 @@ const Hero = () => {
         className="relative h-[100vh] w-full bg-black flex items-center justify-center"
       >
         <div className="flex w-[70%] gap-12 items-center overflow-visible">
-          <Image
-            src="/img/blackandwhite3.jpg"
-            alt=""
-            width={650}
-            height={800}
-          />
+          <Image src="/img/hero1.jpg" alt="" width={650} height={800} />
           <motion.div
             style={{ y: yText1, opacity: opacityText1 }}
             className="max-w-auto text-white font-bold text-left"
           >
             <h1 className="text-6xl md:text-9xl">
               Timeless{" "}
-              <span className="font-light text-gray-700">elegance</span> in
-              every
+              <span className="font-light text-[#6FA696]">elegance</span>{" "}
+              <span className="text-gray-300">in every</span>
               <br />
-              <span className="font-light text-gray-700">frame.</span>
+              <span className="font-light text-[#41645B]">frame.</span>
             </h1>
           </motion.div>
         </div>
@@ -50,30 +45,24 @@ const Hero = () => {
       {/* Segunda sección */}
       <motion.section
         style={{ y: yImg2, opacity: opacityImg2 }}
-        className="relative z-20 h-[100vh] w-full bg-white flex items-center justify-center"
+        className="relative z-20 h-[100vh] w-full bg-black flex items-center justify-center"
       >
-        <div className="relative flex h-[100vh] w-[70%] gap-12 items-center justify-center overflow-visible">
+        <div className="relative flex h-[100vh] w-[70%] gap-16 items-center justify-center overflow-visible">
           <motion.div
             style={{ y: yText2, opacity: opacityText2 }}
-            className="w-1/2 text-black font-bold text-end"
+            className="w-1/2 text-white font-bold text-end"
           >
             <h1 className="text-6xl md:text-9xl">
               Timeless{" "}
-              <span className="font-light text-gray-300">elegance</span> in
-              every
+              <span className="font-light text-[#F2CED1]">elegance</span>{" "}
+              <span className="text-gray-300">in every</span>
               <br />
-              <span className="font-light text-gray-300">frame.</span>
+              <span className="font-light text-[#CA8D93]">frame.</span>
             </h1>
           </motion.div>
 
           <div className="relative" style={{ overflow: "visible" }}>
-            <Image
-              src="/img/blackandwhite2.jpg"
-              alt=""
-              width={650}
-              height={800}
-              className="-mt-20 -mb-20"
-            />
+            <Image src="/img/hero2.jpg" alt="" width={650} height={800} />
           </div>
         </div>
       </motion.section>
